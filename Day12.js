@@ -1,3 +1,5 @@
+//Problem Statement: Given a number from 0 to 999,999,999,999, spell out that number in English.
+
 //function for each three segment
 const eachThree = (n) => {
     //Constants
