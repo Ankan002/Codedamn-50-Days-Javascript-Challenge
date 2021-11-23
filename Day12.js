@@ -58,7 +58,7 @@ const sayNumberInEnglish = (n) => {
         return "INVALID RANGE"
     }
 
-    if(n.toString().length <= 3) return eachThree(n)
+    if(n.toString().length <= 3) return eachThree(n).trim()
 
     const UPPER_SUFFIX = ["thousand", "million", "billion"]
 
@@ -105,7 +105,7 @@ const sayNumberInEnglish = (n) => {
         return "zero"
     }
 
-    return finalString
+    return finalString.trim()
 }
 
 console.log(`5328743 in english is: ${sayNumberInEnglish(5328743)}`)
