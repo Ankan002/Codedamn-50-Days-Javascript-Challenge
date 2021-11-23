@@ -108,4 +108,4 @@ const sayNumberInEnglish = (n) => {
     return finalString
 }
 
-console.log(`5635 in english is: ${sayNumberInEnglish(395434)}`)
+console.log(`5328743 in english is: ${sayNumberInEnglish(5328743)}`)
