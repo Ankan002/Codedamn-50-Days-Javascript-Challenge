@@ -4,7 +4,7 @@
 
 function expandedForm(num) {
     // Your code here
-    const currentNumArray = num.toString().split('')
+    const currentNumArray = (num.toString().split('')).filter(num => parseInt(num)!==0)
     let currentMultiplyingFactor = 1
     let currentPos = currentNumArray.length - 1
 
@@ -20,3 +20,4 @@ function expandedForm(num) {
 console.log(expandedForm(12))
 console.log(expandedForm(42))
 console.log(expandedForm(734))
+console.log(expandedForm(73040))
