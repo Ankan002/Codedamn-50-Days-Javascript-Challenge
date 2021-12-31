@@ -16,10 +16,6 @@ function getTheGapX(str) {
 
     const lastIndex = str.lastIndexOf('X')
 
-    if(firstIndex === lastIndex){
-        return -1
-    }
-
     return lastIndex - firstIndex
 }
 
